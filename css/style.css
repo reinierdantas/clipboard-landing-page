@@ -180,7 +180,9 @@ p {
 .clipboard-image {
     margin-top: 50px;
 }
-
+.work-info p{
+    padding-top: 20px;
+}
 .work-item {
     padding-top: 50px;
     display: flex;
