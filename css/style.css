@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: #fff;
+}
+
+h2 {
+    color: hsl(210, 10%, 33%);
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+.clipboard,
+.content,
+.call,
+.workflow {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Header */
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 0 30px 0;
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.call {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.call h1 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color: hsl(210, 10%, 33%);
+}
+
+.call p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 40px;
+    color: hsl(201, 11%, 66%);
+}
+
+.buttons {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-so {
+    padding: 0 5px;
+}
+
+.btn-so button {
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-ios button,
+.btn-mac button {
+    padding: 15px 35px;
+    border-radius: 35px;
+    border: none;
+}
+
+.btn-ios button {
+    background: hsl(171, 66%, 44%);
+}
+
+.btn-mac button {
+    background: hsl(233, 100%, 69%);
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.content p {
+    padding-bottom: 60px;
+}
+
+.content-info p {
+    margin: 0 auto;
+    max-width: 630px;
+    padding: 0 20px;
+}
+
+.content-item {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 60px;
+    height: auto;
+}
+
+.content-img {
+    margin-left: -5%;
+    flex: 1 1 600px;
+}
+
+.content-img img {
+    height: auto;
+}
+
+.content-itemtxt {
+    flex: 1 1 400px;
+    padding: 60px 80px 0 80px;
+    height: 100%
+}
+
+.content-txt {
+    text-align: left;
+    margin-top: 20px;
+    max-width: 390px;
+}
+
+.clipboard {
+    padding: 100px 20px;
+
+}
+
+.clip-info {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.clip-info h2,
+.clip-info p {
+    padding-bottom: 20px;
+}
+
+.clipboard-image {
+    margin-top: 50px;
+}
+
+.work-item {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-icons {
+    flex: 1 1 400px;
+    padding: 20px 40px;
+}
+
+.work-icons h3 {
+    padding-top: 30px;
+}
+
+.work-icons p {
+    padding: 10px 50px 0 50px;
+}
+
+.work-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.work-org {
+    padding: 100px 40px;
+}
+
+.work-org ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-org li {
+    flex: 1 1 200px;
+    padding: 20px 0;
+}
+
+.work-org li img {
+    height: 30px;
+}
+
+.os-info {
+    padding-bottom: 100px;
+}
+
+.os-info p {
+    padding-bottom: 40px;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #F6F6F8;
+    padding: 30px 20px 50px 0px;
+}
+
+.foot li {
+    cursor: pointer;
+}
+
+.logo-foot {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.foot-list li {
+    padding: 10px 0;
+}
+
+.social {
+    display: flex;
+    align-self: center;
+}
+
+.social li {
+    padding: 0 10px;
+}
+
+.attribution {
+    display: block;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(max-width:520px) {
+    head {
+        padding: 70px 20px 30px 20px;
+        background-image: url(../images/bg-header-mobile.png);
+    }
+
+    .call {
+        padding-top: 50px;
+    }
+
+    .call h1 {
+        font-size: 2.8rem;
+    }
+
+    .call p {
+        padding: 0 20px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn-so {
+        padding: 10px 5px;
+    }
+
+    .btn-ios button,
+    .btn-mac button {
+        width: 90%;
+    }
+
+    .content-img {
+        margin-left: 0%;
+        padding: 0 20px;
+    }
+
+    .content-txt {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .os-info {
+        padding: 0 20px 100px 20px;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background: #F6F6F8;
+        padding: 50px 20px 50px 0px;
+    }
+
+    .foot li {
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .logo-foot {
+        width: 50px;
+        height: 50px;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .foot-list li {
+        padding: 10px 0;
+    }
+
+    .social {
+        display: flex;
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .social li {
+        padding: 0 10px;
+    }
+}
