@@ -51,7 +51,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 0 30px 0;
+    padding: 110px 0 30px 0;
     background-image: url(../images/bg-header-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,20 +62,21 @@ p {
 }
 
 .call {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 50px;
 }
 
 .call h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 20px;
     color: hsl(210, 10%, 33%);
 }
 
 .call p {
-    max-width: 700px;
+    max-width: 630px;
+    font-size: 1.075rem;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0px;
     color: hsl(201, 11%, 66%);
 }
 
@@ -97,7 +98,7 @@ p {
 
 .btn-ios button,
 .btn-mac button {
-    padding: 15px 35px;
+    padding: 15px 45px;
     border-radius: 35px;
     border: none;
 }
@@ -114,7 +115,9 @@ p {
     padding-top: 100px;
     padding-bottom: 20px;
 }
-
+.content-info{
+    padding-bottom: 20px;
+}
 .content h2 {
     font-size: 2rem;
     padding-bottom: 20px;
@@ -126,7 +129,7 @@ p {
 
 .content-info p {
     margin: 0 auto;
-    max-width: 630px;
+    max-width: 650px;
     padding: 0 20px;
 }
 
@@ -221,11 +224,11 @@ p {
 }
 
 .os-info {
-    padding-bottom: 150px;
+    padding-bottom: 160px;
 }
 
 .os-info p {
-    padding-bottom: 20px;
+    padding: 20px 0;;
 }
 
 .foot {
@@ -233,7 +236,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     background: #F6F6F8;
-    padding: 30px 20px 50px 0px;
+    padding: 30px 20px 30px 0px;
 }
 
 .foot li {
